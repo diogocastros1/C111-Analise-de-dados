@@ -81,3 +81,7 @@ nomes = [pessoa, pessoa2]
 print(nomes[1]['nome']) # acessando o nome da Bulma
 ~~~
 
+## Cap. 4 NumPy
+
+### Numpy
+
