@@ -42,7 +42,9 @@ cond2 = mtz>mtz.mean() # extraindo valores mariores que a média
 # Analise textual
 # CHAR
 arr = np.array(['Pedro', 'Arthur', 'Ana', 'Maciel'])
-result = np.char.find(arr, 'a')
+result = np.char.find(arr, 'An')>=0
 cond = np.char.find(arr, 'a') >= 0
+print(result)
+print(arr[result])
 print(cond)
 print(arr[cond])
