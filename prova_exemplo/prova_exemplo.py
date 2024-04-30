@@ -23,5 +23,6 @@ america_latina = np.char.find(arr[:,1], 'LATIN AMER. & CARIB')>=0
 pais_maior_percapita = np.argmax(arr[america_latina, 8].astype(float))
 max_percapita = np.max(arr[america_latina, 8].astype(float))
 
-print(f"Pais {arr[:, 0][pais_maior_percapita]}possui a renda de ${max_percapita:.2f}")
+print(f"Pais {arr[pais_maior_percapita, 0]}possui a renda de ${max_percapita:.2f}")
+
 

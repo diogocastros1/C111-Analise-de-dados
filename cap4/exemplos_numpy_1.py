@@ -37,7 +37,8 @@ fev = np.arange(40, 50, 1)
 print(jan)
 print(fev)
 print(jan+fev)
-print(np.concatenate([jan, fev]).reshape(5, 4))
+concat = np.concatenate([jan, fev]).reshape(5, 4)
+print(concat)
 
 # Tamanho de um array
 print(jan.size)
@@ -47,3 +48,5 @@ print(jan.ndim)
 
 # Shape
 print(jan.shape)
+# Shape
+print(concat.shape)

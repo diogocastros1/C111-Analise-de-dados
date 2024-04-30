@@ -83,5 +83,15 @@ print(nomes[1]['nome']) # acessando o nome da Bulma
 
 ## Cap. 4 NumPy
 
-### Numpy
+### Estrutura
+- ND Arrays
 
+## Cap. 5 Pandas
+
+### Estruturas
+- Series (1-D)
+- DataFrames (2-D)
+
+### Diferenças entre NumPy e Pandas
+- O NumPy possui chaves numéricas e com o Pandas utilizamos dicionário, neste caso as chaves podem ser qualquer coisa.
+- NumPy Array pode guardar valores somente do mesmo tipo, por exemplo, um array de int só poderá armazenar int, o Pandas permite o arquivamento de dados heterogenos, ou seja, pode armazenar diversos tipos de dados (int, float e string) misturados.

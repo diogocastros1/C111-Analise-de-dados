@@ -3,19 +3,19 @@ import numpy as np
 # Numeros aleatorios 
 # Random
 arr = np.random.randint(1, 11, 15)
-# print(arr)
+print(arr)
 
 # SEED -> semente aleatoria
 np.random.seed(10)
 arr = np.random.randint(1, 11, 15)
-# print(arr)
+print(arr)
 
 # Extraindo elementos unicos
 # print(np.unique(arr, return_counts=True))
 
 # Operações com matrizes
 mtz = arr.reshape(3,5)
-# print(mtz)
+print(mtz)
 
 '''  J   F  M  A  J
 agua 10  5  1  2 10
